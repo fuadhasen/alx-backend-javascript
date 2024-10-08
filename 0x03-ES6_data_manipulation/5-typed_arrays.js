@@ -9,4 +9,3 @@ export default function createInt8TypedArray(length, position, value) {
   view1.setInt8(position, value);
   return view1;
 }
-
