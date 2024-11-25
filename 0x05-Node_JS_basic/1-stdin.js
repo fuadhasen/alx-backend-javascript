@@ -4,7 +4,7 @@ const readline = require('readline').createInterface({
 });
 
 readline.on('close', () => {
-  console.log("This important software is now closing\n")
+  console.log("This important software is now closing")
 })
 
 readline.question('Welcome to Holberton School, what is your name?\n',
