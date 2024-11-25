@@ -3,6 +3,10 @@ const readline = require('readline').createInterface({
   output: process.stdout,
 });
 
+readline.on('close', () => {
+  console.log("This important software is now closing\n")
+})
+
 readline.question('Welcome to Holberton School, what is your name?\n',
   (input) => {
     console.log(`Your name is: ${input}`);
